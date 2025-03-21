@@ -51,6 +51,7 @@ def update(frame):
 
     active_messages[:] = new_messages  # Update active messages
 
+
 # ----------------- RUNNING ANIMATION -----------------
 ani = animation.FuncAnimation(fig, update, frames=50, interval=INTERVAL, repeat=True)
 plt.show()
